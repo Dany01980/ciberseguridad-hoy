@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consejos de Seguridad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Consejos de Seguridad</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ciberseguridad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="amenazas.html">Amenazas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container fade-in">
+        <h2>Buenas prácticas</h2>
+        <ul>
+            <li>Usa contraseñas seguras y únicas.</li>
+            <li>Actualiza tu software y sistema operativo con frecuencia.</li>
+            <li>No abras enlaces ni archivos de correos sospechosos.</li>
+            <li>Activa la autenticación en dos pasos en tus cuentas.</li>
+            <li>Instala antivirus y programas de seguridad confiables.</li>
+            <li>Realiza respaldos periódicos de tu información importante.</li>
+            <li>Evita conectarte a redes Wi-Fi públicas sin protección.</li>
+            <li>Configura la privacidad de tus redes sociales adecuadamente.</li>
+            <li>Revisa la URL de los sitios antes de introducir tus datos personales.</li>
+            <li>Desconfía de ofertas demasiado buenas para ser reales.</li>
+        </ul>
+
+        <h2 class="mt-4">Contáctanos</h2>
+        <form id="contacto" class="fade-in">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+        <button id="btnTest" class="btn btn-warning mt-4 fade-in">Realizar test de seguridad</button>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 Midari S.A | Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
