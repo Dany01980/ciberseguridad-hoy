@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenazas Comunes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Amenazas Comunes</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ciberseguridad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="amenazas.html">Amenazas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container fade-in">
+        <div class="row">
+            <div class="col-md-6 mb-4 tarjeta1">
+                <div class="card fade-in h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Phishing</h5>
+                        <p class="card-text">Engaño para obtener datos confidenciales como contraseñas o números de
+                            tarjetas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 tarjeta2">
+                <div class="card fade-in h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ransomware</h5>
+                        <p class="card-text">Secuestra tu información y pide rescate para liberarla.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 tarjeta1">
+                <div class="card fade-in h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Malware</h5>
+                        <p class="card-text">Software malicioso diseñado para dañar, robar o espiar tu dispositivo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 tarjeta2">
+                <div class="card fade-in h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">DDoS</h5>
+                        <p class="card-text">Ataques de denegación de servicio que saturan un servidor para dejarlo
+                            fuera de línea.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4 tarjeta1">
+                <div class="card fade-in h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ingeniería Social</h5>
+                        <p class="card-text">Manipulación psicológica para obtener acceso a información o sistemas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion fade-in mt-5" id="casosReales">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne">
+                        Caso Real: WannaCry
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#casosReales">
+                    <div class="accordion-body">
+                        El ataque de ransomware WannaCry en 2017 afectó a más de 200,000 computadoras en 150 países.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo">
+                        Caso Real: SolarWinds
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#casosReales">
+                    <div class="accordion-body">
+                        En 2020, hackers comprometieron la cadena de suministro de SolarWinds y accedieron a sistemas
+                        gubernamentales.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree">
+                        Caso Real: Twitter Hack 2020
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#casosReales">
+                    <div class="accordion-body">
+                        Varias cuentas verificadas de Twitter fueron comprometidas por atacantes que realizaron fraudes
+                        con criptomonedas.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 Midari S.A | Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
